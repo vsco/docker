@@ -384,6 +384,7 @@ The `docker_service` resource property list mostly corresponds to the options fo
 - `dns` - DNS server(s) to use
 - `dns_search` - DNS search domains to use
 - `exec_driver` - Exec driver to use
+- `exec_root` - Directory for Docker's execution state
 - `fixed_cidr` - IPv4 subnet for fixed IPs
 - `fixed_cidr_v6` - IPv6 subnet for fixed IPs
 - `group` - Posix group for the unix socket

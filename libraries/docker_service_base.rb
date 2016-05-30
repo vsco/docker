@@ -31,6 +31,7 @@ module DockerCookbook
     property :dns_search, [Array, nil]
     property :exec_driver, ['native', 'lxc', nil]
     property :exec_opts, ArrayType
+    property :exec_root, [String, nil]
     property :fixed_cidr, [String, nil]
     property :fixed_cidr_v6, [String, nil]
     property :group, [String, nil]
